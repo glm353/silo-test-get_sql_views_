@@ -20,7 +20,16 @@ python -m viewpull refresh --env-code dev --profile <profile>
 python -m viewpull enumerate --env-code dev   # decode all conformant view SQL + coverage
 python -m viewpull compare   --env-code dev   # what the old name-guess misses, and why
 
+# offline CSV export (reads the same cache/ → out/views-<env>.csv)
+python export_csv.py --env-code dev
+
 pytest                                        # 12 offline tests over fixtures/
 ```
+
+`export_csv.py` writes one CSV to `out/`: **`views-<env>.csv`** — one row per catalog view, with
+the name-guess outcome folded in: `decoded`, `on_pattern`, `found_in_legacy`, `legacy_process_id`
+(the DynamoDB process(es) the name-guess used to reach it, if any), and `miss_reason`
+(`off_pattern_name` / `no_reachable_process` / `undecoded`). The name-guess's own per-process view —
+including the 1043 process items resolving to no view — stays summarised in `out/compare-<env>.json`.
 
 See [CLAUDE.md](CLAUDE.md) for the full design, the caching model, and the session log.
