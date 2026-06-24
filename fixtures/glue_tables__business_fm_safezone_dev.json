@@ -1,0 +1,13 @@
+[
+  {
+    "Name": "user_vw",
+    "TableType": "VIRTUAL_VIEW",
+    "ViewOriginalText": "/* Presto View: eyJvcmlnaW5hbFNxbCI6ICJTRUxFQ1QgdXNlcl9pZCBGUk9NIGJ1c2luZXNzX2ZtX3NhZmV6b25lX2Rldi51c2VyIiwgImNhdGFsb2ciOiAiYXdzZGF0YWNhdGFsb2ciLCAic2NoZW1hIjogIngiLCAiY29sdW1ucyI6IFtdfQ== */"
+  },
+  {
+    "Name": "broken_vw",
+    "TableType": "VIRTUAL_VIEW",
+    "ViewOriginalText": "not a presto envelope",
+    "ViewExpandedText": null
+  }
+]

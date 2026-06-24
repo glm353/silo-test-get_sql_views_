@@ -1,0 +1,11 @@
+# Live AWS dumps — gitignored (a trimmed sample lives in fixtures/ instead)
+cache/
+
+# venv / env / python
+.venv/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+.pytmp/
+out/

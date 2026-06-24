@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "staff",
+    "TableType": "EXTERNAL_TABLE",
+    "ViewOriginalText": null
+  },
+  {
+    "Name": "staff_vw",
+    "TableType": "VIRTUAL_VIEW",
+    "ViewOriginalText": "/* Presto View: eyJvcmlnaW5hbFNxbCI6ICJTRUxFQ1Qgc3RhZmZfaWQsIG5hbWUgRlJPTSBkb21haW5fZm91bmRhdGlvbl9yb2xlX2Rldi5zdGFmZiIsICJjYXRhbG9nIjogImF3c2RhdGFjYXRhbG9nIiwgInNjaGVtYSI6ICJ4IiwgImNvbHVtbnMiOiBbXX0= */"
+  },
+  {
+    "Name": "staff_curated",
+    "TableType": "VIRTUAL_VIEW",
+    "ViewOriginalText": "/* Presto View: eyJvcmlnaW5hbFNxbCI6ICJTRUxFQ1Qgc3RhZmZfaWQgRlJPTSBkb21haW5fZm91bmRhdGlvbl9yb2xlX2Rldi5zdGFmZl92dyIsICJjYXRhbG9nIjogImF3c2RhdGFjYXRhbG9nIiwgInNjaGVtYSI6ICJ4IiwgImNvbHVtbnMiOiBbXX0= */"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "domain_foundation_role_dev"
+  },
+  {
+    "Name": "molecular_hr_sapsf_dev"
+  },
+  {
+    "Name": "business_fm_safezone_dev"
+  },
+  {
+    "Name": "random_scratch_dev"
+  },
+  {
+    "Name": "domain_foundation_role_prod"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "ProcessId": "domain-foundation-role-staff",
+    "CatalogDatabase": "domain_foundation_role_dev",
+    "SilverTable": "staff",
+    "SourceType": "ATHENA"
+  },
+  {
+    "ProcessId": "molecular-hr-sapsf-cert",
+    "CatalogDatabase": "molecular_hr_sapsf_dev",
+    "SilverTable": "cert",
+    "SourceType": "ATHENA"
+  },
+  {
+    "ProcessId": "business-fm-safezone-user",
+    "CatalogDatabase": "business_fm_safezone_dev",
+    "SilverTable": "user_account",
+    "SourceType": "ATHENA"
+  },
+  {
+    "ProcessId": "no-silver-table",
+    "CatalogDatabase": "domain_foundation_role_dev"
+  }
+]
